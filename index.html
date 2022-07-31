@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Quiz app</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+</head>
+<body>
+  <!-- start Button -->
+  <div class="start_btn"><button>Start</button></div>
+
+  <div class="info_box">
+    <div class="quiz_info"><span>Rule of Quiz</span>
+    </div>
+  
+  <div class="info">
+    <div class="contain">Try to answer the following code-related questions within the time limit.</div>
+    <div class="contain">Keep in mind that
+    incorrect answers will panalize your score/time by ten seconds</div>
+  </div>
+  <div class="buttons">
+    <button class="quit">Exit</button>
+    <button class="restart">Begin</button>
+  </div>
+  </div>
+
+<!-- Quiz Box -->
+  <div class="quiz_box">
+    <header>
+      <div class="title">Quiz Questions</div>
+      <div class="timer">
+          <div class="time_text">Time left</div>
+          <div class="timer_second">5</div>
+      </div>
+      <div class="time_length"></div>
+    </header>
+    <section>
+      <div class="question_text">
+        <!-- <span>How do you call a function named "myFunction"?</span> -->
+      </div>
+      <div class="option_list">
+        <!-- <div class="option">
+            <span>call myFunction()</span>
+            <div class="icon cross"><i class="fas fa-times"></i></div>
+        </div>
+        <div class="option">
+          <span>myFunction()</span>
+          <div class="icon tick"><i class="fas fa-check"></i></div>
+        </div>
+        <div class="option">
+          <span>call function myFunction()</span>
+          <div class="icon cross"><i class="fas fa-times"></i></div>
+        </div>
+        <div class="option">
+          <span>call.myFunction()</span>
+          <div class="icon cross"><i class="fas fa-times"></i></div>
+        </div> -->
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="total">
+        <!-- <span><p>2</p>of<p>5</p>Questions</span> -->
+      </div>
+      <button class="next_btn">Next Question</button>
+    </footer>
+  </div>
+
+  <!-- result -->
+  <div class="result_box">
+    <div class="complete_text">You have answered all questions</div>
+    <div class="score">
+      <span>You got <p>2</p> out of <p>5</p></span>
+    </div>
+    <div class="buttons">
+      <button class ="Replay">Play Again</button>
+      <button class="quit">Exit</button>
+    </div>
+  </div>
+
+<script src="./script.js"></script>
+<script src="./question.js"></script> 
+</body>
+</html>
