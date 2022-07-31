@@ -6,7 +6,7 @@ As you proceed in your career as a web developer, you will probably be asked to 
 
 User Story
 
-AS A coding bootcamp student
+```AS A coding bootcamp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
 Acceptance Criteria
@@ -22,3 +22,4 @@ WHEN all questions are answered or the timer reaches 0
 THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score
+```
